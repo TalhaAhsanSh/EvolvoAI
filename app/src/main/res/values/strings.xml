@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EvolvoAI</string>
+    <string name="sendMessage">Send a message</string>
+    <string name="tosend">toSend</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="companyName">Developed By Migliorare Corportion</string>
+    <string name="logo">logo</string>
+    <string name="about_paragraph">The Migliorare Corporation created the advanced language model known as EvolvoAI. It is currently being tested as a beta version while being developed to increase its accuracy and capabilities. The model shares an architectural foundation with OpenAI\'s GPT (Generative Pretrained Transformer) models, enabling it to provide responses to diverse prompts that are human-like. EvolvoAI is made to comprehend natural language requests and produce text responses that are grammatically sound, relevant, and coherent. It analyses enormous volumes of data using machine learning algorithms and learns from linguistic patterns. As a result, it can produce responses that are customised to the particular context and tone of a particular interaction.</string>
+    <string name="about_evolvoai">About EvolvoAI</string>
+    <string name="chatbot_screen">Click on Next Button to open ChatBot Screen</string>
+    <string name="next">NEXT</string>
+</resources>

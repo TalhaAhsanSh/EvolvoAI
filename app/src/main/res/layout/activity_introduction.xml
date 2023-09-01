@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroductionActivity"
+    android:background="?attr/colorSecondaryVariant">
+
+    <ImageView
+        android:id="@+id/int_logo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/logo"
+        android:src="?attr/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:text="@string/about_evolvoai"
+        android:layout_below="@id/int_logo"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimaryVariant"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_paragraph"
+        android:layout_below="@id/about"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/paragraph"
+        android:textColor="?attr/colorPrimaryVariant"
+        tools:ignore="VisualLintLongText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chatbot_screen"
+        android:id="@+id/btn_t"
+        android:layout_below="@id/paragraph"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="?attr/colorPrimaryVariant"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_t"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nextBtn"
+        android:layout_marginTop="10dp"
+        android:text="@string/next"
+        android:textColor="?attr/colorPrimaryVariant"
+        />
+
+</RelativeLayout>
